@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Créations Bois Recyclé</title>
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet"> -->
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet"> -->
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet"> -->
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1>Créations en Bois Recyclé</h1>
+    <nav class="row m-0 justify-content-center">
+      <a class="col-md-2" href="#accueil">Accueil</a>
+      <a class="col-md-2" href="#apropos">À propos</a>
+      <a class="col-md-2" href="#creations">Nos créations</a>
+      <a class="col-md-2" href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="row m-0 justify-content-center">
+      <section id="accueil" class="section col-md-10">
+        <div id="myCarousel" class="carousel slide pt-3" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./img/atelier_c.jpg" class="d-block w-100 img-fluid" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/cabane.jpg" class="d-block w-100 img-fluid" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/recyclage.jpg" class="d-block w-100 img-fluid" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!-- <img src="./img/atelier.jpg" class="img-fluid" alt=""> -->
+        <h2>Bienvenue !</h2>
+        <p class="fs-4">On fabrique des objets et meubles à partir de bois recyclé. Chaque pièce est unique et réalisée
+          avec passion.
+        </p>
+      </section>
+
+      <section id="apropos" class="section col-md-10">
+        <img src="./img/equipe.jpg" class="img-fluid" alt="">
+        <h2>À propos</h2>
+        <p class="fs-4">Nous sommes une équipe d'artisans passionnés par la seconde vie du bois. Ensemble, nous
+          transformons des
+          matériaux recyclés en objets uniques, durables et respectueux de l'environnement.
+          Chaque création est le fruit d'un travail d'équipe, mêlant savoir-faire, créativité et engagement pour un
+          artisanat responsable.</p>
+      </section>
+
+      <section id="creations" class="section col-md-10">
+        <h2>Nos créations</h2>
+        <div class="galerie">
+          <div class="produit card" style="width: 18rem;">
+            <img src="./img/table_basse.jpg" class="card-img-top img-fluid" alt="Table basse en palettes">
+            <div class="card-body float-end">
+              <p class="card-title h3">Table basse en palettes</p>
+              <p class="card-text">Bois recyclé, design industriel, robuste et parfait pour votre salon.</p>
+            </div>
+          </div>
+
+          <div class="produit card" style="width: 18rem;">
+            <img src="./img/etagers_mural.webp" class="card-img-top img-fluid" alt="Table basse en palettes">
+            <div class="card-body">
+              <p class="card-title h3">Étagère murale rustique</p>
+              <p class="card-text">Bois recyclé, design naturel, pratique et décoratif pour votre mur.</p>
+            </div>
+          </div>
+
+          <div class="produit card" style="width: 18rem;">
+            <img src="./img/lampe_bois.jpg" class="card-img-top img-fluid" alt="Table basse en palettes">
+            <div class="card-body">
+              <p class="card-title h3">Lampe en bois flotté</p>
+              <p class="card-text">Élégante, unique, fabriquée à partir de bois flotté recyclé.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section col-md-10">
+        <h2>Contact</h2>
+        <p>Vous pouvez nous contacter pour commander un produit ou en discuter d'un personnalisé.</p>
+        <form>
+          <input type="text" name="nom" placeholder="Votre nom" required><br>
+          <input type="email" name="email" placeholder="Votre email" required><br>
+          <textarea name="message" placeholder="Votre message" required></textarea><br>
+          <button type="submit">Envoyer</button>
+        </form>
+      </section>
+    </div>
+    <a href="#top" class="btn haut"><i class="fa-solid fa-arrow-up"></i></a>
+  </main>
+
+  <footer>
+    <div class="row m-0 justify-content-center fs-5">
+      <p class="col-md"><a href="" class="text-dark"><i class="fa-brands fa-square-facebook"></i></a> Facebook</p>
+      <p class="col-md"><a href="" class="text-dark"><i class="fa-brands fa-square-instagram"></i></a> Instagram</p>
+      <p class="col-md"><a href="" class="text-dark"><i class="fa-solid fa-envelope"></i></a> E-mail</p>
+      <p class="col-md"><i class="fa-solid fa-square-phone"></i> Fixe : 0235244005</p>
+
+    </div>
+    <p>&copy; 2025 - Mon Atelier Bois</p>
+  </footer>
+
+
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+
+    document.addEventListener('DOMContentLoaded', function () {
+      var myCarousel = document.querySelector('#myCarousel');
+      var carousel = new bootstrap.Carousel(myCarousel, {
+        interval: 3000,
+        touch: true
+      });
+    });
+  </script>
+
+
+  <script src="https://kit.fontawesome.com/f9a12e2310.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
